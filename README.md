@@ -13,7 +13,7 @@ To install:
 
 **From your home directory:**
 ```
-git clone git@github.com:nicolasbauw/Amiga-cc.git
+git clone https://github.com/nicolasbauw/Amiga-cc.git
 cd Amiga-cc/
 ./install_amiga_toolchain.sh
 ```

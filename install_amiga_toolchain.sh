@@ -6,8 +6,8 @@ cd vbcc_tools
 wget http://sun.hasenbraten.de/vasm/release/vasm.tar.gz
 wget http://sun.hasenbraten.de/vlink/release/vlink.tar.gz
 wget http://www.ibaug.de/vbcc/vbcc.tar.gz
-wget http://phoenix.owl.de/vbcc/current/vbcc_target_m68k-amigaos.lha
-wget https://server.owl.de/~frank/vbcc/2019-10-04/vbcc_unix_config.tar.gz
+wget http://phoenix.owl.de/vbcc/2019-10-04/vbcc_target_m68k-amigaos.lha
+wget http://phoenix.owl.de/vbcc/2019-10-04/vbcc_unix_config.tar.gz
 
 tar zxvf vbcc.tar.gz
 cd vbcc

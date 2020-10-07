@@ -26,7 +26,12 @@ Type y or n [y]:
 
 Just press enter each time, and the installation will go on.
 
-When finished, copy-paste env.txt contents to your shell to set environment variables (or edit yourself the .profile, .bashrc or whatever config file)
+When finished, copy-paste env.txt contents to your shell to set environment variables (or edit yourself the .profile, .bashrc or whatever config file), for instance bash users can do this way (from home directory):
+
+```
+cat Amiga-cc/env.txt >>.bashrc
+```
+then close and reopen your session.
 
 Let's now have a try:
 ```

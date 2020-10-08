@@ -26,11 +26,17 @@ Type y or n [y]:
 
 Just press enter each time, and the installation will go on.
 
-When finished, copy-paste env.txt contents to your shell to set environment variables (or edit yourself the .profile, .bashrc or whatever config file), for instance bash users can do this way (from home directory):
+When finished, copy-paste env.txt contents to your shell to set environment variables (or edit yourself the .profile, .bashrc or whatever config file), for instance bash users can do this way:
 
 ```
-cat Amiga-cc/env.txt >>.bashrc
+cat env.txt >> ~/.bashrc
 ```
+
+Nearly the same thing for zsh:
+```
+cat env.txt >> ~/.zshenv
+```
+
 then close and reopen your session.
 
 Let's now have a try:

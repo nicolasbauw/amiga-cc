@@ -48,7 +48,7 @@ This will compile the Amiga source **window.c**, you should obtain no error mess
 
 To compile your own program, here is the command line:
 ```
-vc -c99 +aos68k -I$NDK_INC -o window window.c -lamiga -lauto
+vc -c99 +aos68k -I$INCLUDEOS3 -o window window.c -lamiga -lauto
 ```
 
 This repo was made thanks to informations from [this blog post](https://blitterstudio.com/setting-up-an-amiga-cross-compiler/) and [this youtube video](https://www.youtube.com/watch?v=vFV0oEyY92I).

@@ -40,5 +40,9 @@ cp vlink $VBCC/bin
 cd $VBCC
 wget http://www.haage-partner.de/download/AmigaOS/NDK39.lha
 lha x NDK39.lha
+cp -r $VBCC/NDK_3.9/Include/include_h/* $VBCC/targets/m68k-amigaos/include
+rm -rf $VBCC/NDK_3.9/
+rm -rf $VBCC/ndk_3.9/
+rm NDK_3.9.info NDK39.lha
 cd ..
 rm -rf vbcc_tools

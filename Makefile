@@ -1,5 +1,5 @@
 CC = vc
-CFLAGS = -c99 +aos68k -I$(INCLUDEOS3)
+CFLAGS = -c99 +aos68k
 LDFLAGS = -lamiga -lauto
 
 all:

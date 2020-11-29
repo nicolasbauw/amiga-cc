@@ -43,6 +43,8 @@ lha x NDK39.lha
 cp -r $VBCC/NDK_3.9/Include/include_h/* $VBCC/targets/m68k-amigaos/include
 rm -rf $VBCC/NDK_3.9/
 rm -rf $VBCC/ndk_3.9/
+rm $VBCC/Install
+rm $VBCC/Install.info
 rm NDK_3.9.info NDK39.lha
 cd ..
 rm -rf vbcc_tools

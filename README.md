@@ -3,7 +3,7 @@
 Based on the [vbcc](http://www.compilers.de/vbcc.html) compiler.
 
 Prerequisite:
-LHA decompressor, eg:
+the wget utility and an LHA decompressor, for example to install lha:
 ```
 brew install lha (Macos)
 sudo apt install lhasa (Debian-based distros)

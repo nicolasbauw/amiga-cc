@@ -1,4 +1,17 @@
-#!/bin/bash
+#!/bin/sh
+
+if ! command -v wget &> /dev/null
+then
+    echo "Please install wget !"
+    exit
+fi
+
+if ! command -v lha &> /dev/null
+then
+    echo "Please install an lha decompressor !"
+    exit
+fi
+
 mkdir vbcc_tools
 mkdir vbcc
 cd vbcc_tools

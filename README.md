@@ -5,7 +5,7 @@ Based on the [vbcc](http://www.compilers.de/vbcc.html) compiler.
 Prerequisite:
 the wget utility and an LHA decompressor, for example to install lha:
 ```
-brew install lhasa (Macos)
+brew install lha (Macos)
 sudo apt install lhasa (Debian-based distros)
 ```
 
@@ -13,8 +13,8 @@ To install:
 
 **From your home directory:**
 ```
-git clone https://github.com/nicolasbauw/Amiga-cc.git
-cd Amiga-cc/
+git clone https://github.com/nicolasbauw/amiga-cc.git
+cd amiga-cc/
 ./install_amiga_toolchain.sh
 ```
 

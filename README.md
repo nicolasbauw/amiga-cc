@@ -1,6 +1,6 @@
-# Amiga C cross compiler setup for Linux / Macos
+# Amiga C cross compiler and assembler setup for Linux / Macos
 
-Based on the [vbcc](http://www.compilers.de/vbcc.html) compiler.
+Installs the [vbcc](http://www.compilers.de/vbcc.html) compiler and the m68k vasm assembler.
 
 Prerequisite:
 the wget utility and an LHA decompressor, for example to install lha:

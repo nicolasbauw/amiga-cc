@@ -53,13 +53,13 @@ make
 cp vlink $VBCC/bin
 
 cd $VBCC
-wget http://www.haage-partner.de/download/AmigaOS/NDK39.lha
-lha x NDK39.lha
-cp -r $VBCC/NDK_3.9/Include/include_h/* $VBCC/targets/m68k-amigaos/include
-rm -rf $VBCC/NDK_3.9/
-rm -rf $VBCC/ndk_3.9/
-rm $VBCC/Install
-rm $VBCC/Install.info
-rm NDK_3.9.info NDK39.lha
+if [ ! -d NDK_3.2 ]; then
+    mkdir NDK_3.2
+fi
+cd NDK_3.2
+wget http://aminet.net/dev/misc/NDK3.2.lha
+lha x NDK3.2.lha
 cd ..
-rm -rf vbcc_tools
+cp -r $VBCC/NDK_3.2/Include_h/* $VBCC/targets/m68k-amigaos/include
+rm -rf $VBCC/NDK_3.2/
+rm -rf ~/amiga-cc/vbcc_tools/

@@ -96,7 +96,6 @@ fi
 lha x NDK3.2.lha
 
 cd ..
-cp -r "$VBCC/NDK_3.2/Include_h/"* "$VBCC/targets/m68k-amigaos/include"
+cp -r $VBCC/NDK_3.2/Include_[Hh]/* "$VBCC/targets/m68k-amigaos/include"
 
-rm -rf "$VBCC/NDK_3.2/"
 rm -rf "$PROJECT_PATH/vbcc_tools/"

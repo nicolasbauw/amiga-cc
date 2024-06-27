@@ -9,9 +9,9 @@ brew install lha (Macos)
 sudo apt install lhasa (Debian-based distros)
 ```
 
-To install:
 
-**From your home directory:**
+**You can run the scripts from a directory of your choice**; a vbcc directory will be created there.  
+For simplicity the example below is run from the repo directory.
 ```
 git clone https://github.com/nicolasbauw/amiga-cc.git
 cd amiga-cc/
@@ -27,8 +27,6 @@ Type y or n [y]:
 Just press enter each time, and the installation will go on.
 
 When finished, run env.sh file to add entry to your zshrc or bashrc file. 
-
-Nearly the same thing for zsh:
 ```
 ./env.sh
 ```

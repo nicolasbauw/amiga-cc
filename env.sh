@@ -4,9 +4,9 @@
 PROJECT_PATH="$PWD"
 
 # Check if the shell is bash or zsh
-if [ -n "$BASH_VERSION" ]; then
+if [ $SHELL = "/bin/bash" ]; then
   SHELL_RC="$HOME/.bashrc"
-elif [ -n "$ZSH_VERSION" ]; then
+elif [ $SHELL = "/bin/zsh" ]; then
   SHELL_RC="$HOME/.zshrc"
 else
   echo "Unsupported shell. Please use bash or zsh."

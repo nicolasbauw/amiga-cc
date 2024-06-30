@@ -4,7 +4,7 @@
 PROJECT_PATH="$PWD"
 
 # Check if the shell is bash or zsh
-if [ $SHELL = "/bin/bash" ]; then
+if [ $SHELL = "/bin/bash" ] || [ $SHELL = "/usr/bin/bash" ]; then
   SHELL_RC="$HOME/.bashrc"
 elif [ $SHELL = "/bin/zsh" ]; then
   SHELL_RC="$HOME/.zshrc"

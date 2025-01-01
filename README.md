@@ -3,14 +3,15 @@
 Installs the [vbcc](http://www.compilers.de/vbcc.html) compiler and the m68k vasm assembler.
 
 Prerequisite:
-the wget utility and an LHA decompressor, for example to install lha:
+the wget utility and an LHA decompressor:
 ```
 brew install lha (Macos)
-sudo apt install lhasa (Debian-based distros)
+sudo apt install wget lhasa (Debian-based distros)
+sudo pacman -S wget lhasa (Arch)
 ```
 
 
-**You can run the scripts from a directory of your choice**; a vbcc directory will be created there.  
+**You can run the scripts from a directory of your choice**; a vbcc directory will be created there.
 For simplicity the example below is run from the repo directory.
 ```
 git clone https://github.com/nicolasbauw/amiga-cc.git
@@ -26,7 +27,7 @@ Type y or n [y]:
 
 Just press enter each time, and the installation will go on.
 
-When finished, run env.sh file to add entry to your zshrc or bashrc file. 
+When finished, run env.sh file to add entry to your zshrc or bashrc file.
 ```
 ./env.sh
 ```
